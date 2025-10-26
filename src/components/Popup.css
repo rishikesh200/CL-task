@@ -138,3 +138,11 @@
   color: red;
   background-color: transparent;
 }
+
+@media (max-width: 720px) {
+  .modal {
+    width: 85%;       /* take 90% width */
+    min-height: 100vh; 
+    border-radius: 0;
+  }
+}
