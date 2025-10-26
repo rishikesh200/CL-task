@@ -1,5 +1,5 @@
 import React from "react";
-import { schemaOptions } from "../data";
+import { schemaOptions } from "../Data";
 
 const Dropdown = ({ selectedValue, onChange, usedValues }) => {
   const availableOptions = schemaOptions.filter(
