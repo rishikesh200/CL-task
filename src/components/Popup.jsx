@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { schemaOptions } from "../data";
+import { schemaOptions } from "../Data";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 import axios from "axios";
 import "./Popup.css";
